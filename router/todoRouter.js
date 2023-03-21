@@ -11,5 +11,6 @@ router
   .delete(todoController.deleteTodo);
 
 router.route("/:id").patch(todoController.updateTodo);
+router.route("/bulk").post(todoController.updateDragDrop);
 
 module.exports = router;

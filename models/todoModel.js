@@ -17,6 +17,12 @@ const todoSchema = new mongoose.Schema({
   createdAt: {
     type: Date,
   },
+  updatedAt: {
+    type: Date,
+  },
+  index: {
+    type: Number,
+  },
 });
 
 const Todo = mongoose.model("Todo", todoSchema);
