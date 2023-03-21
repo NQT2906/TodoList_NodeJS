@@ -1,0 +1,28 @@
+{
+  "name": "todolist_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NQT2906/TodoList_NodeJS.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NQT2906/TodoList_NodeJS/issues"
+  },
+  "homepage": "https://github.com/NQT2906/TodoList_NodeJS#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.0.2",
+    "morgan": "^1.10.0"
+  }
+}
