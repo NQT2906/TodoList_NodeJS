@@ -126,9 +126,6 @@ const updateDragDrop = async (req, res) => {
 
     res.status(200).send({
       status: "Success",
-      data: {
-        todo,
-      },
       message: "Update successful!",
     });
     return;
