@@ -10,6 +10,8 @@ const getAllTodo = async (req, res) => {
       length: todoList.length,
       requestTime: req.requestTime,
       check: true,
+      check2: false,
+      check3: true,
       status: 200,
     });
   } catch (error) {
