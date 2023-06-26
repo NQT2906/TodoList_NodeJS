@@ -9,6 +9,7 @@ const getAllTodo = async (req, res) => {
       }),
       length: todoList.length,
       requestTime: req.requestTime,
+      check: true,
       status: 200,
     });
   } catch (error) {
